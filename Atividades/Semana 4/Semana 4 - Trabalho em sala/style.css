@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 500px;
+    height: 430px;
+
+    background-color: rgb(192, 192, 192);
+
+    border-radius: 20px;
+    padding: 30px;
+}
+
+
+input {
+    border: 1px solid black;
+}
+
+.form h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* PESSOA */
+
+.form .pessoa {
+    display: block;
+
+    margin-bottom: 20px;
+}
+
+.form .pessoa label,
+input {
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.form .pessoa .name {
+    width: 450px;
+}
+
+.form .pessoa .docs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .pessoa .docs input {
+    width: 198px;
+}
+
+/* ENDEREÇO */
+
+.form .endereco {
+    margin-bottom: 20px;
+}
+
+.endereco .endereco-input {
+    width: 429px;
+}
+
+.endereco .bairro-cep, .cidade-estado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.endereco .bairro-cep .input-bairro {
+    width: 250px;
+}
+
+.endereco .bairro-cep .input-cep {
+    width: 150px;
+}
+
+.endereco .cidade-estado .input-cidade {
+    width: 320px;
+}
+
+.endereco .cidade-estado .input-estado {
+    width: 40px;
+}
+
+/* CADASTRO */
+
+.form .cadastro {
+    margin-bottom: 20px;
+
+}
+
+.cadastro .login-senha{
+    display: inline;
+}
+
+.cadastro .login-senha input{
+    width: 150px;
+}
+
+.cadastro .telefone-celular{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cadastro .input-email {
+    width: 446px;
+}
+
+/* BUTTONS */
+
+.form .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+    width: 80px;
+    height: 30px;
+
+    border: 1px solid black;
+}

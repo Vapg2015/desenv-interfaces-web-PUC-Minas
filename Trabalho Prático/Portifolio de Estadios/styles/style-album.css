@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* --- BACKGROUND --- */
+
+.background {
+    max-width: 1500px;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* --- HEADER --- */
+
+header {
+    margin-top: 30px;
+}
+
+header .content {
+    display: flex;
+}
+
+header img {
+    width: 30%;
+    height: 100%;
+}
+
+.infos {
+    width: 70%;
+
+    padding-left: 40px;
+}
+
+.infos h4 {
+    font-size: 17px;
+    color: rgb(50, 178, 221);
+}
+
+.infos p {
+    font-size: 13px;
+}
+
+.local-data {
+    display: flex;
+}
+
+.local-data .local {
+    width: 60%;
+}
+
+.local-data .data {
+    width: 40%;
+}
+
+/* --- ITENS --- */
+
+.itens {
+    margin-top: 30px;
+}
+
+.itens .container .row .col .card {
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+
+.itens .container .row .col .card img {
+    width: 100%;
+    height: 120px;
+}
+
+.itens .container .row .col .card p {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav {
+        padding-left: initial;
+    }
+
+    header .content {
+        display: initial;
+    }
+
+    header img {
+        width: 100%;
+        height: 100%;
+
+        margin-bottom: 30px;
+    }
+
+    .infos {
+        width: initial;
+        padding: initial;
+    }
+}

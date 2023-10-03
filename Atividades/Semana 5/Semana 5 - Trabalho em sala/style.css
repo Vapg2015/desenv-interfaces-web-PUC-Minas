@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4063F1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 500px;
+    height: 430px;
+
+    /* background-color: rgb(192, 192, 192); */
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+
+input {
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+
+    background-color: #E5E5E5;
+}
+
+.form h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+
+    color: #4063F1;
+
+    text-transform: uppercase;
+}
+
+/* PESSOA */
+
+.form .pessoa {
+    display: block;
+
+    margin-bottom: 20px;
+}
+
+.form .pessoa label,
+input {
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.form .pessoa .name {
+    width: 90%;
+}
+
+.form .pessoa .docs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .pessoa .docs input {
+    width: 40%;
+}
+
+/* ENDEREÇO */
+
+.form .endereco {
+    margin-bottom: 20px;
+}
+
+.endereco .endereco-input {
+    width: 85%;
+}
+
+.endereco .bairro-cep,
+.cidade-estado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.endereco .bairro-cep .input-bairro {
+    width: 50%;
+}
+
+.endereco .bairro-cep .input-cep {
+    width: 30%;
+}
+
+.endereco .cidade-estado .input-cidade {
+    width: 68%;
+}
+
+.endereco .cidade-estado .input-estado {
+    width: 10%;
+}
+
+/* CADASTRO */
+
+.form .cadastro {
+    margin-bottom: 20px;
+
+}
+
+.cadastro .login-senha {
+    display: inline;
+}
+
+.cadastro .login-senha input {
+    width: 40%;
+}
+
+.cadastro .telefone-celular {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cadastro .telefone-celular input {
+    width: 37%;
+}
+
+.cadastro .input-email {
+    width: 89%;
+}
+
+/* BUTTONS */
+
+.form .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #4063F1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #748ef5;
+}
+
+.buttons button {
+    width: 80px;
+    height: 30px;
+}
+
+@media screen and (max-width:600px) {
+
+    .background {
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        width: 80%;
+        height: 60%;
+        background-color: #4063F1;
+
+        border-radius: 20px;
+        padding: 30px;
+    }
+
+
+    input {
+        border: 1px solid #a0a0a0;
+        border-radius: 5px;
+
+        background-color: white;
+    }
+
+    label {
+        color: white
+    }
+
+    .form h1 {
+        text-align: center;
+        padding-bottom: 20px;
+
+        color: white;
+    }
+
+    /* PESSOA */
+
+    .form .pessoa {
+        display: block;
+
+        margin-bottom: 20px;
+    }
+
+    .form .pessoa label,
+    input {
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .form .pessoa .name {
+        width: 100%;
+    }
+
+    .form .pessoa .docs {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .form .pessoa .docs input {
+        width: 40%;
+    }
+
+    /* ENDEREÇO */
+
+    .form .endereco {
+        margin-bottom: 20px;
+    }
+
+    .endereco .endereco-input {
+        width: 100%;
+    }
+
+    .endereco .bairro-cep,
+    .cidade-estado {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .endereco .bairro-cep .input-bairro {
+        width: 40%;
+    }
+
+    .endereco .bairro-cep .input-cep {
+        width: 40%;
+    }
+
+    .endereco .cidade-estado .input-cidade {
+        width: 67%;
+    }
+
+    .endereco .cidade-estado .input-estado {
+        width: 20%;
+    }
+
+    /* CADASTRO */
+
+    .form .cadastro {
+        margin-bottom: 20px;
+
+    }
+
+    .cadastro .login-senha {
+        display: inline;
+    }
+
+    .cadastro .login-senha input {
+        width: 40%;
+    }
+
+    .cadastro .telefone-celular {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cadastro .telefone-celular input {
+        width: 35%;
+    }
+
+    .cadastro .input-email {
+        width: 100%;
+    }
+
+    /* BUTTONS */
+    button {
+        border-radius: 5px;
+        background-color: white;
+        color: #4063F1;
+        border: none;
+
+        cursor: pointer;
+    }
+    
+    .form .buttons {
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 20px;
+    }
+
+    .buttons button {
+        width: 19%;
+        height: 30px;
+    }
+}

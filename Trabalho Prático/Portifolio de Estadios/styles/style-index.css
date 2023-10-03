@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.background {
+    max-width: 1500px;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* --- DESTAQUE --- */
+
+.destaque {
+    /* width: 100%;
+    height: 500%; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.destaque img {
+    width: 100%;
+    height: 50vh;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 100%;
+    background-color: rgb(48, 48, 48);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.carousel-inner {
+    width: 100%;
+    height: 80%;
+}
+
+/* --- MAPA ---  */
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.map iframe {
+    width: 90%;
+    height: 250px;
+}
+
+/* --- LISTA DE ÁLBUNS ---  */
+
+.album-list {
+    margin-top: 30px;
+}
+
+.album-list .content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.album-list .container .row .col a {
+    text-decoration: none;
+}
+
+.album-list .container .row .col .card {
+    width: 100%;
+    height: 80%;
+
+    margin-bottom: 30px;
+}
+
+.album-list .container .row .col .card img {
+    width: 100%;
+    height: 40%;
+}
+
+
+.album-list .container .row .col .card p {
+    text-align: left;
+}
+
+/* --- CREDITOS ---  */
+
+.creditos {
+    display: flex;
+}
+
+.creditos h3 {
+    font-size: 1.6rem;
+}
+
+.creditos .about {
+    width: 60%;
+}
+
+.creditos .autoria {
+    width: 40%;
+    margin-left: 50px;
+}
+
+.creditos .autoria .pessoa {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.creditos .autoria .pessoa .img {
+    height: 100%;
+    margin-right: 20px;
+}
+
+.creditos .autoria .pessoa .img img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.creditos .autoria .pessoa .infos {
+    width: 70%;
+    margin: auto 0;
+}
+
+.creditos .autoria .pessoa .infos p {
+    margin-bottom: 0;
+    font-size: 100%;
+}
+
+.creditos .autoria .social {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+.creditos .autoria .social h3 {
+    width: 170px;
+}
+
+.creditos .autoria .social img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    .creditos {
+        display: initial;
+    }
+
+    .creditos .about {
+        width: initial;
+
+        text-align: justify;
+    }
+
+    .creditos .autoria {
+        width: initial;
+
+        margin-left: initial;
+    }
+
+    .creditos .autoria {
+        margin-top: 30px;
+    }
+
+    .creditos .autoria .pessoa {
+        display: flex;
+        margin: 20px 0;
+    }
+}
